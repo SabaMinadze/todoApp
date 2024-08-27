@@ -2,11 +2,11 @@ import { useState, useRef } from "react";
 import styles from "./Todo.module.css";
 
 function Todo() {
-    const [box, setBox] = useState([]);
-    const [tasks, setTasks] = useState("");
-    const bodyRef = useRef(null);
+    const [box, setBox] = useState<string[]>([]);
+    const [tasks, setTasks] = useState<string>("");
+    const bodyRef = useRef<HTMLDivElement>(null);
 
-    function handleInpt(e:unknown) {
+    function handleInpt(e: React.ChangeEvent<HTMLInputElement>) {
         setTasks(e.target.value);
     }
 
