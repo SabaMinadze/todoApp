@@ -6,7 +6,7 @@ function Todo() {
     const [tasks, setTasks] = useState("");
     const bodyRef = useRef(null);
 
-    function handleInpt(e) {
+    function handleInpt(e:unknown) {
         setTasks(e.target.value);
     }
 
