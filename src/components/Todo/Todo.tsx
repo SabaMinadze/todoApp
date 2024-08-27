@@ -39,7 +39,7 @@ function Todo() {
                 </button>
                 <div>
                     {box.map((t, index) => (
-                        <p key={index}>{t}</p>
+                        <h1 key={index}>{t}</h1>
                     ))}
                 </div>
             </div>
