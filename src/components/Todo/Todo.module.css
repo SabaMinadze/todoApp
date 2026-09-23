@@ -16,4 +16,8 @@
     border-radius: 10px;
     border: none;
     cursor: pointer;
-}    
+}
+
+.toLeft{
+    margin-left: 98%;
+}

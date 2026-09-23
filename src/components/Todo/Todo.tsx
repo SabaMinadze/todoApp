@@ -21,6 +21,8 @@ function Todo() {
     }
 
     return (
+        <>
+        <><h1 className={styles.toLeft}>{box.length}</h1></>
         <center>
             <div className={styles.box} ref={bodyRef}>
                 <h1>Todo App</h1>
@@ -44,6 +46,7 @@ function Todo() {
                 </div>
             </div>
         </center>
+        </>
     );
 }
 
