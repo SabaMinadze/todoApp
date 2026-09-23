@@ -19,5 +19,6 @@
 }
 
 .toLeft{
-    margin-left: 98%;
+    display: flex;
+    justify-content: flex-end;
 }
